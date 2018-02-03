@@ -1,0 +1,46 @@
+{
+	"info": {
+		"name": "Turtl",
+		"_postman_id": "785717df-0b34-5362-41c9-56620f7f13a7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UserStat",
+			"description": "",
+			"item": [
+				{
+					"name": "Sessions",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n\t\"d186b38e-d935-47e2-a6aa-c835deadc490\",\"034be7b4-2125-4e7e-a79c-54602441d908\",\"68a1e8f3-684f-42b7-8078-c4c5ec275ea0\",\"3e36414d-7b0c-4605-abdd-376cbc12b44c\",\n\t\"888aed2b-e655-495e-a3e8-a65d835ebdb8\",\"3d711d71-cdf9-4a60-b6b4-8c8317693580\",\"f4cf6676-6653-4fb5-8d66-aa17f167ba63\",\"ce5544ce-2d9f-4a41-9046-50714db58746\",\n\t\"6679749d-a5d4-40ae-ab92-1fe9b361fad8\",\"3f94aa10-de50-4de3-b250-0a5782d8698d\",\"e122d96e-05f3-4c76-8a93-63ca8174c9b6\",\"ef459f97-3dc7-499a-8422-764f73fe3db8\",\n\t\"e362d1c5-06e5-4dca-8dd6-a9fe85b32f30\",\"8fa150d9-1529-4409-8f61-ea11b288c73f\",\"a394a905-863e-4e8a-9b8c-962f1bc4f64f\",\"e2406c41-eebc-4a04-87aa-211992d352d2\",\n\t\"0fe04f11-c75a-4f4e-b141-d7fc9222df0d\",\"88752842-864a-451b-945d-2843d60d7d2a\",\"1fdaa4ea-d993-4733-b097-8f5a0c6ee277\",\"8d59b2bc-30fc-4c5b-9954-e3f14e4e3dd6\",\n\t\"0a6be5c0-5fa4-4f3d-ab72-62a1e6b2e78e\",\"3b6ae9af-12cf-4067-b3ac-76cc3fcf9b7f\",\"4937197d-8d70-43e1-9998-83bc5780e2df\",\"f5400ccd-e3c4-478a-8ad0-b12804909af3\",\n\t\"52bbe20e-62c2-49e7-ae44-3f2f7e9c84a6\",\"c39108c3-8351-477c-877d-98b8cd735ddb\",\"7b0a7f1d-63f7-4847-af60-4617d9e3b2c9\",\"0886c0a2-6d3f-4a61-b5e4-37cbdd9efa14\",\n\t\"ef6736cf-a0dd-4b1a-b71d-940515d8a319\",\"09e1616b-9407-455b-994a-a1a474063415\",\"1e82ddd9-79b4-4fe2-b551-963995034a1d\",\"8790bbe8-7981-4fb2-832f-c79b02f63ff9\",\n\t\"627ee351-97ff-497a-8a94-fed8aa50241f\",\"8f4f289d-1b61-417b-8438-d37f57f5eae7\",\"c95502e2-724b-4253-9a05-8ecfa72c96a3\",\"e0c9248e-4d1c-4f64-b492-03405f7b28ff\",\n\t\"64efba72-f84f-4f85-8bd4-eb04451faf10\",\"e33c6c34-c87b-47c0-9ab7-56490a845315\",\"27e11f9d-9c6b-4426-9d23-d2ca90fa6c84\",\"44d04755-abcc-43d1-9c49-6381637eea21\",\n\t\"cdb96898-2119-4610-ae92-262046e91ae5\",\"dc76fb71-dc0a-4a7a-8623-a2bf48af1b96\",\"1056390b-491b-4527-b306-4b9d30060dc2\",\"c1f9be0c-3c2b-4f00-924a-f045b053e4d5\",\n\t\"19d55b8e-2917-4ba9-aa9e-bec00cdfceee\",\"8a34d539-bf03-470d-b189-028d485d1441\",\"686fcc55-5e0c-44bd-a5be-d1356e4ed492\",\"45e783f0-444e-4711-a692-6ad016f1c92e\",\n\t\"a7dd1cb2-fdd6-4141-bea5-a9c17ea7d247\",\"b19b6c7b-c0ee-442b-8554-97c8b7e8ec96\",\"d9c57e75-506e-4aa4-85ea-efa4abdf63de\"\n]"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/sessions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"sessions"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
