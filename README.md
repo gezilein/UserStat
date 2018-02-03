@@ -3,7 +3,7 @@ Simple dotnetcore 2 WEBAPI project
 
 ## Overview
 This application is done with VS2017 and is built on .NET Core 2.0 framework.
-To view code use any text editor (most relevant files being **SessionsController.cs** and **UserStatProvider.cs**).
+To view code use any text editor (most relevant files for it's purpose being **SessionsController.cs** and **UserStatProvider.cs**).
 Or best to use Microsoft Visual Studio 2017 (Community or otherwise).
 
 Other files/classes/methods are provided with comments.
